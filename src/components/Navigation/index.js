@@ -2,8 +2,8 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav>
-      <ul className="flex-row">
+    <nav className="navbar">
+      <ul className="navList list-unstyled d-flex justify-content-between flex-row">
         <li>
           <a href="#about">About me</a>
         </li>
