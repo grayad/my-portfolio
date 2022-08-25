@@ -2,19 +2,27 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="navbar">
-      <ul className="navList list-unstyled d-flex justify-content-between flex-row">
-        <li>
-          <a href="#about">About me</a>
+    <nav>
+      <ul className="nav list-unstyled">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">
+            About me
+          </a>
         </li>
-        <li>
-          <a href="#portfolio">Portfolio</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">
+            Portfolio
+          </a>
         </li>
-        <li>
-          <a href="#contact">Contact</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">
+            Contact
+          </a>
         </li>
-        <li>
-          <a href="#resume">Resume</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">
+            Resume
+          </a>
         </li>
       </ul>
     </nav>
