@@ -27,4 +27,8 @@ header {
   font-family: var(--font1);
 }
 
+.card {
+  width: 18rem;
+}
+
 
