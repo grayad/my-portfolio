@@ -5,6 +5,7 @@ function Project() {
     {
       title: "Timed-Quiz-Game",
       technologies: "HTML/CSS/JS",
+      imageUrl: '/assets/Timed-Quiz.png',
       app: "https://grayad.github.io/timed-quiz-game/",
       github: "https://github.com/grayad/timed-quiz-game",
     },
@@ -23,26 +24,26 @@ function Project() {
   ];
   return (
     <section>
-      <div className="d-flex flex-row">
+      <div className="d-flex flex-row flex-wrap justify-content-center p-3">
         {projects.map((project) => (
-          <div className="card" key={project.title}>
+          <div className="card m-2" key={project.title}>
             <img
-            //   src={require(`../../assets/${project.title}.png`)}
-              class="card-img-top"
+              src={project.imageUrl}
+              class="card-img"
               alt="Application Screenshot"
             ></img>
-            <div class="card-body">
+            <div class="card-img-overlay">
               <h5 class="card-title">{project.title}</h5>
               <p class="card-text">
                 This application was built using the following:{" "}
                 {project.technologies}
               </p>
-              <a href={project.app} class="btn btn-primary">
+              {/* <a href={project.app} class="btn btn-primary">
                 Go to Application
               </a>
               <a href={project.github} class="btn btn-primary">
                 Go to Github
-              </a>
+              </a> */}
             </div>
           </div>
         ))}
