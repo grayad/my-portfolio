@@ -34,9 +34,15 @@ header, footer {
 
 main {
   background-color: var(--secondary-color);
+  padding: 2%;
+  color: var(--primary-color)
 }
 
-img {
+h2 {
+  text-decoration: underline;
+}
+
+.card-img {
   object-fit: cover;
   width: 100%;
   height: 50%;
@@ -47,6 +53,8 @@ img {
   color: var(--secondary-color);
   background-color: var(--primary-color);
 }
+
+
 
 .nav-link {
   color: var(--secondary-color);
