@@ -34,7 +34,7 @@ header, footer {
 
 main {
   background-color: var(--secondary-color);
-  padding: 2%;
+  padding: 3%;
   color: var(--primary-color)
 }
 
@@ -54,13 +54,22 @@ h2 {
   background-color: var(--primary-color);
 }
 
-
-
 .nav-link {
   color: var(--secondary-color);
 }
 
+#resume-img {
+  /* TODO: fix padding */
+  padding: 25px
+}
 
+@media screen and (min-width: 350px) {
+  #resume-img {
+    width: 135%;
+    /* TODO: fix padding */
+    padding: 10px
+  }
+}
 
 
 

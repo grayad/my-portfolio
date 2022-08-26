@@ -7,7 +7,6 @@ export default function Resume() {
       <div className="d-flex justify-content-center">
         <img
           src="./assets/resume.png"
-          className="p-5"
           id="resume-img"
           alt="Alexus's resume with education and work experience"
         />
