@@ -14,11 +14,17 @@ export default function Contact() {
     setFormState({ ...formState, [e.target.name]: e.target.value });
   }
 
+  //   submit form (backend later)
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(formState);
+  }
+
   // JSX
   return (
     <section>
       <h1>Contact Me</h1>
-      <form id="contact-form">
+      <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input
