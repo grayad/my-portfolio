@@ -1,27 +1,50 @@
 import React, { useState } from "react";
 
 export default function Contact() {
+  // initialize form state
   const [formState, setFormState] = useState({
     name: "",
     email: "",
     message: "",
   });
   const { name, email, message } = formState;
+
+  //   sync form data to the state of the component (any change in input can be captured in formState)
+  function handleChange(e) {
+    setFormState({ ...formState, [e.target.name]: e.target.value });
+  }
+
+  // JSX
   return (
     <section>
       <h1>Contact Me</h1>
       <form id="contact-form">
         <div>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} />
+          <input
+            type="text"
+            name="name"
+            defaultValue={name}
+            onChange={handleChange}
+          />
         </div>
         <div>
           <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} />
+          <input
+            type="email"
+            name="email"
+            defaultValue={email}
+            onChange={handleChange}
+          />
         </div>
         <div>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} />
+          <textarea
+            name="message"
+            rows="5"
+            defaultValue={message}
+            onChange={handleChange}
+          />
         </div>
         <button type="submit">Submit</button>
       </form>
