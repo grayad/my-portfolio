@@ -1,29 +1,20 @@
 import React from "react";
 
 function Nav() {
+  const pageNames = ["About", "Portfolio", "Contact", "Resume"];
+
   return (
     <nav>
       <ul className="nav list-unstyled">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">
-            About me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portfolio">
-            Portfolio
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">
-            Contact
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#resume">
-            Resume
-          </a>
-        </li>
+        {pageNames.map((name) => {
+          return (
+            <li className="nav-item">
+              <a className="nav-link" href={`#${name.toLowerCase()}`}>
+                {name}
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
