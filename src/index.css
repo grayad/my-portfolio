@@ -32,6 +32,10 @@ header, footer {
   font-family: var(--font1);
 }
 
+footer {
+  font-size: large;
+}
+
 main {
   background-color: var(--secondary-color);
   padding: 3%;
@@ -56,6 +60,10 @@ h2 {
 
 .nav-link {
   color: var(--secondary-color);
+}
+
+.icon {
+  padding: 1%;
 }
 
 #resume-img {

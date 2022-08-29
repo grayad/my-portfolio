@@ -52,7 +52,7 @@ export default function Contact() {
           <label htmlFor="name">Name:</label>
           <input
             type="text"
-            name="name"
+            name="Name"
             defaultValue={name}
             onBlur={handleChange}
           />
@@ -69,7 +69,7 @@ export default function Contact() {
         <div>
           <label htmlFor="message">Message:</label>
           <textarea
-            name="message"
+            name="Message"
             rows="5"
             defaultValue={message}
             onBlur={handleChange}
