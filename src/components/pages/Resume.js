@@ -4,13 +4,21 @@ export default function Resume() {
   return (
     <div>
       <h2>Resume</h2>
-      <div className="d-flex justify-content-center">
-        <img
-          src="./assets/resume.png"
-          id="resume-img"
-          alt="Alexus's resume with education and work experience"
-        />
-      </div>
+      <a href="./assets/resume.png" download>Download Resume</a>
+      <h3>Coding Proficiencies</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>APIs</li>
+        <li>MySQL</li>
+        <li>Sequelize</li>
+        <li>MongoDB</li>
+        <li>React</li>
+      </ul>
     </div>
   );
 }
