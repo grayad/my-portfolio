@@ -66,6 +66,17 @@ h2 {
   padding: 1%;
 }
 
+.container {
+  width: 500px;
+  clear: both
+}
+
+.container input, textarea {
+  width: 100%;
+  clear: both
+}
+
+
 
 
 
