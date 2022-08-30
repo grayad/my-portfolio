@@ -23,6 +23,27 @@ function Project() {
       app: "https://habit--rabbit.herokuapp.com/",
       github: "https://github.com/grayad/habit-rabbit",
     },
+    {
+      title: "Plan-It-Scheduler",
+      technologies: "JS/Moment.js",
+      imageUrl: "./assets/Plan-It-Scheduler.png",
+      app: "https://grayad.github.io/plan-it-scheduler/",
+      github: "https://github.com/grayad/plan-it-scheduler",
+    },
+    {
+      title: "Investment-Portfolio-Dashboard",
+      technologies: "HTML/CSS/JS/Server-Side APIs",
+      imageUrl: "./assets/investment-portfolio-dashboard.png",
+      app: "https://cpm-128.github.io/investment-portfolio-dashboard/",
+      github: "https://github.com/grayad/timed-quiz-game",
+    },
+    {
+      title: "Gray-Portfolio",
+      technologies: "HTML/CSS",
+      imageUrl: "./assets/Gray-Portfolio.png",
+      app: "https://grayad.github.io/Gray-Portfolio/",
+      github: "https://github.com/grayad/gray-portfolio",
+    },
   ];
   return (
     <section>

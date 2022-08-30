@@ -66,18 +66,6 @@ h2 {
   padding: 1%;
 }
 
-#resume-img {
-  /* TODO: fix padding */
-  padding: 25px
-}
-
-@media screen and (min-width: 350px) {
-  #resume-img {
-    width: 135%;
-    /* TODO: fix padding */
-    padding: 10px
-  }
-}
 
 
 

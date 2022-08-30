@@ -1,15 +1,22 @@
 import React from "react";
 
-function Nav() {
-  const pageNames = ["About", "Portfolio", "Contact", "Resume"];
+const determineActiveClass = (currentPage, pageName) =>
+  `nav-link ${currentPage === pageName ? "active" : ""}`;
 
+const pageNames = ["About", "Portfolio", "Contact", "Resume"];
+
+function Nav({currentPage, handlePageChange}) {
   return (
     <nav>
       <ul className="nav list-unstyled">
         {pageNames.map((name) => {
           return (
             <li className="nav-item">
-              <a className="nav-link" href={`#${name.toLowerCase()}`}>
+              <a
+                className={determineActiveClass(currentPage, name)}
+                href={`#${name.toLowerCase()}`}
+                onClick={() => handlePageChange(name)}
+              >
                 {name}
               </a>
             </li>
