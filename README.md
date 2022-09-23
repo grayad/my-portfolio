@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Project Description
-  A website to showcase my development projects
+  A website to showcase my development projects. Visit here https://grayad.github.io/my-portfolio/
     
   ## Table of Contents
   - [Screenshot](#screenshot)
