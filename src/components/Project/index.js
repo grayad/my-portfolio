@@ -3,6 +3,13 @@ import React from "react";
 function Project() {
   const projects = [
     {
+      title: "DevNet",
+      technologies: "MERN: MongoDB, Express, React, Node",
+      imageUrl: "./assets/devnet.png",
+      app: "https://devnetsocial.herokuapp.com/",
+      github: "https://github.com/grayad/DevNet",
+    },
+    {
       title: "Timed-Quiz-Game",
       technologies: "HTML/CSS/JS",
       imageUrl: "./assets/Timed-Quiz.png",
