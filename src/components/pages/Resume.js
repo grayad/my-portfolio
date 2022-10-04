@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <section>
+    <section class='d-flex justify-content-around align-items-center'>
       <div className="resumeDiv">
         <h2>Resume</h2>
         <a href="./assets/AlexusGray_Resume.png" className="fs-4 text" download>
