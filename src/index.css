@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 :root{
-    --primary-color: #DDFFF7;
-    --secondary-color: #AA4465;
+    --primary-color: #F7F7F7;
+    --secondary-color: #7DA2A9;
     --tertiary-color: #FFA69E;
     --quaternary-color: #93E1D8;
     --font1: montserrat, sans-serif;
@@ -30,10 +30,6 @@ header, footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   font-family: var(--font1);
-}
-
-footer {
-  font-size: large;
 }
 
 main {

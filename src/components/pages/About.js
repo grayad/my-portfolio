@@ -4,15 +4,15 @@ export default function About() {
   return (
     <div>
       <h2>About Me</h2>
-      <div id="resumeDiv" class="d-flex flex-row align-items-center flex-wrap">
+      <div id="aboutDiv" class="d-flex align-items-center">
         <img
-          src="./assets/imgOfMe.jpg"
+          src={process.env.PUBLIC_URL + "/assets/imgOfMe.jpg"}
           alt="Alexus Gray"
           class="img-thumbnail my-2"
-          width={110}
+          width={140}
           height={100}
         ></img>
-        <p>
+        <p class="p-1">
           Hi everyone! My name is Alexus Gray and I am from Sanford, North
           Carolina. In May 2020, I graduated from the University of North
           Carolina at Chapel Hill with a Bachelor's in Business Administration

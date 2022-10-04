@@ -6,13 +6,13 @@ function Footer() {
   return (
     <footer className="d-flex align-items-center justify-content-center p-1">
       <a href="https://github.com/grayad/" class='icon'>
-        <FaGithub size={40}></FaGithub>
+        <FaGithub size={40} color='#7DA2A9'></FaGithub>
       </a>
       <a href="https://www.linkedin.com/in/alexus-lexi-gray-capm-151434179/" class='icon'>
-        <FaLinkedinIn size={40}></FaLinkedinIn>
+        <FaLinkedinIn size={40} color='#7DA2A9'></FaLinkedinIn>
       </a>
       <a href="mailto: alexus_gray@alumni.unc.edu" class='icon'>
-        <AiOutlineMail size={40}></AiOutlineMail>
+        <AiOutlineMail size={40} color='#7DA2A9'></AiOutlineMail>
       </a>
     </footer>
   );
