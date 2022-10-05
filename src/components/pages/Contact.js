@@ -45,7 +45,7 @@ export default function Contact() {
 
   // JSX
   return (
-    <section class='contact-container'>
+    <section class='contact-container d-flex flex-column justify-content-center'>
       <h2>Contact Me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
@@ -53,6 +53,7 @@ export default function Contact() {
           <input
             type="text"
             name="Name"
+            class='rounded border-0'
             defaultValue={name}
             onBlur={handleChange}
           />
@@ -62,6 +63,7 @@ export default function Contact() {
           <input
             type="email"
             name="email"
+            class='rounded border-0'
             defaultValue={email}
             onBlur={handleChange}
           />
@@ -71,6 +73,7 @@ export default function Contact() {
           <textarea
             name="Message"
             rows="5"
+            class='rounded border-0'
             defaultValue={message}
             onBlur={handleChange}
           />
@@ -81,7 +84,7 @@ export default function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit">Submit</button>
+        <button type="submit" class="btn btn-light">Submit</button>
       </form>
     </section>
   );
