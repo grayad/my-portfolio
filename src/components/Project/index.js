@@ -54,25 +54,33 @@ function Project() {
   ];
   return (
     <section>
-      <div className="card-deck d-flex flex-row flex-wrap justify-content-center p-3">
+      <div className="d-flex flex-row flex-wrap justify-content-center p-3">
         {projects.map((project) => (
-          <div className="card m-2" key={project.title}>
-            <img
-              src={process.env.PUBLIC_URL + project.imageUrl}
-              class="card-img"
-              alt="Application Screenshot"
-            ></img>
-            <div class="card-body">
-              <h5 class="card-title">{project.title}</h5>
-              <p class="card-text">Built With: {project.technologies}</p>
-            </div>
-            <div class="card-footer d-flex justify-content-center align-items-center">
-              <a href={project.app} class="btn">
-                Application
-              </a>
-              <a href={project.github} class="btn">
-                Github
-              </a>
+          <div class="container">
+            <div class="card">
+              <div class="slide slide1">
+                <div class="content">
+                  <img
+                    src={process.env.PUBLIC_URL + project.imageUrl}
+                    class="card-img"
+                    alt="Application Screenshot"
+                  ></img>
+                </div>
+              </div>
+
+              <div class="slide slide2">
+                <div class="content">
+                  <h3>{project.title}</h3>
+
+                  <p>Built With: {project.technologies}</p>
+                  <a href={project.app} class="btn">
+                    Application
+                  </a>
+                  <a href={project.github} class="btn">
+                    Github
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         ))}

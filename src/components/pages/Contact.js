@@ -45,7 +45,7 @@ export default function Contact() {
 
   // JSX
   return (
-    <section class='container'>
+    <section class='contact-container'>
       <h2>Contact Me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
