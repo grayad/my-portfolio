@@ -54,9 +54,10 @@ function Project() {
   ];
   return (
     <section>
-      <div className="row">
+      <p>Hover over or click on project images to see details.</p>
+      <div className="row ">
         {projects.map((project) => (
-          <div class="container col">
+          <div class="container col d-flex justify-content-center">
             <div class="card">
               <div class="slide slide1">
                 <div class="content">
@@ -69,7 +70,7 @@ function Project() {
               </div>
 
               <div class="slide slide2">
-                <div class="content">
+                <div class="content text-center">
                   <h3>{project.title}</h3>
 
                   <p>Built With: {project.technologies}</p>
