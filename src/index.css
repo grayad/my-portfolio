@@ -78,6 +78,11 @@ h2, h3 {
 
 /* Card Slide Styles */
 
+.card {
+  background-color: var(--secondary-color);
+  border: none;
+}
+
 .container .card .slide {
 
   width: 300px;
@@ -85,6 +90,8 @@ h2, h3 {
   height: 200px;
 
   transition: 0.5s;
+
+  background-color: var(--primary-color);
 
 }
 

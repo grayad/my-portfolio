@@ -54,9 +54,9 @@ function Project() {
   ];
   return (
     <section>
-      <div className="d-flex flex-row flex-wrap justify-content-center p-3">
+      <div className="row">
         {projects.map((project) => (
-          <div class="container">
+          <div class="container col">
             <div class="card">
               <div class="slide slide1">
                 <div class="content">
