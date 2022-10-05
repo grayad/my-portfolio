@@ -45,47 +45,51 @@ export default function Contact() {
 
   // JSX
   return (
-    <section class='contact-container d-flex flex-column justify-content-center'>
-      <h2>Contact Me</h2>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            name="Name"
-            class='rounded border-0'
-            defaultValue={name}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input
-            type="email"
-            name="email"
-            class='rounded border-0'
-            defaultValue={email}
-            onBlur={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            name="Message"
-            rows="5"
-            class='rounded border-0'
-            defaultValue={message}
-            onBlur={handleChange}
-          />
-        </div>
-        {/* conditional statement: if there is an error, display the message */}
-        {errorMessage && (
+    <section class="d-flex justify-content-center">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form id="contact-form" onSubmit={handleSubmit}>
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <label htmlFor="name">Name:</label>
+            <input
+              type="text"
+              name="Name"
+              class="rounded border-0"
+              defaultValue={name}
+              onBlur={handleChange}
+            />
           </div>
-        )}
-        <button type="submit" class="btn btn-light">Submit</button>
-      </form>
+          <div>
+            <label htmlFor="email">Email address:</label>
+            <input
+              type="email"
+              name="email"
+              class="rounded border-0"
+              defaultValue={email}
+              onBlur={handleChange}
+            />
+          </div>
+          <div>
+            <label htmlFor="message">Message:</label>
+            <textarea
+              name="Message"
+              rows="5"
+              class="rounded border-0"
+              defaultValue={message}
+              onBlur={handleChange}
+            />
+          </div>
+          {/* conditional statement: if there is an error, display the message */}
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <button type="submit" class="btn btn-light">
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
   );
 }
