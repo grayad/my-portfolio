@@ -74,10 +74,10 @@ function Project() {
                   <h3>{project.title}</h3>
 
                   <p>Built With: {project.technologies}</p>
-                  <a href={project.app} class="btn">
+                  <a href={project.app} class="btn border-secondary m-1 p-1">
                     Application
                   </a>
-                  <a href={project.github} class="btn">
+                  <a href={project.github} class="btn border-secondary m-1 p-1">
                     Github
                   </a>
                 </div>
