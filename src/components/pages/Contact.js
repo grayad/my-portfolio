@@ -47,7 +47,7 @@ export default function Contact() {
   return (
     <section class="d-flex justify-content-center">
       <div class="contact-container">
-        <h2>Contact Me</h2>
+        <h2 class='text-center'>Contact Me</h2>
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>

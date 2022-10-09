@@ -2,9 +2,9 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <div class='text-center'>
       <h2>About Me</h2>
-      <div id="aboutDiv" class="d-flex align-items-center">
+      <div id="aboutDiv" class="d-flex flex-column justify-content-center align-items-center">
         <img
           src={process.env.PUBLIC_URL + "/assets/imgOfMe.jpg"}
           alt="Alexus Gray"

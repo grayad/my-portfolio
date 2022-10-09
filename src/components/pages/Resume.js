@@ -10,8 +10,8 @@ import {GrMysql, GrReactjs} from 'react-icons/gr';
 
 export default function Resume() {
   return (
-    <section class='resumeDiv d-flex justify-content-center align-items-center text-center'>
-      <div>
+    <section class='resumeDiv d-flex flex-column justify-content-center text-center'>
+      <div class='pb-5'>
         <h2>Resume</h2>
         <a href="./assets/AlexusGray_Resume.png" className="fs-4 text" download>
           <button className="btn btn-light">Download Resume</button>
