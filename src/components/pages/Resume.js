@@ -27,9 +27,9 @@ export default function Resume() {
           <li class='col-5'><IoLogoNodejs size={40} color='#f7f7f7'></IoLogoNodejs>Node.js</li>
           <li class='col-5'><SiExpress size={40} color='#f7f7f7'></SiExpress> Express.js</li>
           <li class='col-5'><GrMysql size={40} color='#f7f7f7'></GrMysql>MySQL</li>
-          <li class='col-5'><SiSequelize size={40} color='#f7f7f7'></SiSequelize>Sequelize</li>
+          <li class='col-5'><SiSequelize size={40} color='#f7f7f7'></SiSequelize> Sequelize</li>
           <li class='col-5'><SiMongodb size={40} color='#f7f7f7'></SiMongodb>MongoDB</li>
-          <li class='col-5'><GrReactjs size={40} color='#f7f7f7'></GrReactjs>React</li>
+          <li class='col-5'><GrReactjs size={40} color='#f7f7f7'></GrReactjs> React</li>
         </ul>
       </div>
     </section>

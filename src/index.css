@@ -4,7 +4,7 @@
     --secondary-color: #7DA2A9;
     --tertiary-color: #FFA69E;
     --quaternary-color: #93E1D8;
-    --font1: montserrat, sans-serif;
+    --font1: montserrat, Arial, Helvetica, sans-serif;
 }
 * {
   margin: 0;
@@ -14,9 +14,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: var(--font1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
