@@ -76,6 +76,10 @@ h2, h3 {
   clear: both
 }
 
+.resumeDiv ul {
+  list-style-type: none;
+}
+
 /* Card Slide Styles */
 
 .card {
