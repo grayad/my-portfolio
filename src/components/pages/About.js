@@ -6,7 +6,7 @@ export default function About() {
       <h2>About Me</h2>
       <div id="aboutDiv" class="d-flex flex-column justify-content-center align-items-center">
         <img
-          src={process.env.PUBLIC_URL + "/assets/imgOfMe.jpg"}
+          src={process.env.PUBLIC_URL + "/assets/headshot.jfif"}
           alt="Alexus Gray"
           class="img-thumbnail my-2"
           width={140}
@@ -18,13 +18,12 @@ export default function About() {
           Carolina at Chapel Hill with a Bachelor's in Business Administration
           and Communication Studies, as well as a Spanish minor. Since then, I
           have completed the Associate Project Management Certification (CAPM)
-          and have been working as a Project Analyst in Tech.
+          and have been working as a Project Analyst in IT.
           <br></br>
           <br></br>
-          Now, I am embarking on a new journey to complete the UNC Coding
-          Bootcamp and become a Certified Full Stack Developer. This website
-          will host my portfolio of projects throughout this course and going
-          forward. Take a look around!
+          Recently, I discovered my new passion for coding and completed the UNC Coding
+          Boot Camp to become a Certified Full Stack Developer. This website
+          hosts some of my projects. Take a look around!
         </p>
       </div>
     </div>
