@@ -13,7 +13,8 @@
 
   ## Screenshot
 ![grayad github io_my-portfolio_](https://user-images.githubusercontent.com/102432930/196297952-99c2ee71-028f-4cec-abc7-62bb28c023bb.png)
-![grayad github io_my-portfolio_ (1)](https://user-images.githubusercontent.com/102432930/196297960-e1c1d359-d373-4587-b5ba-75f27f33a518.png)
+![grayad github io_my-portfolio_ (1)](https://user-images.githubusercontent.com/102432930/196298112-49f883e9-c202-4f71-a7ad-30f2c99a6ff2.png)
+
 
 
 
