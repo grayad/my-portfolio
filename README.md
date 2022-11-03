@@ -1,6 +1,8 @@
   # my-portfolio
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Your_GitHub_Username&show_icons=true)
 
   ## Project Description
   A website to showcase my development projects. Visit here https://grayad.github.io/my-portfolio/
