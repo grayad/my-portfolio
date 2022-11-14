@@ -1,6 +1,7 @@
   # my-portfolio
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
 
   ## Project Description
   A website to showcase my development projects. Visit here https://grayad.github.io/my-portfolio/
@@ -12,7 +13,10 @@
   - [Questions](#questions)
 
   ## Screenshot
-![localhost_3000_](https://user-images.githubusercontent.com/102432930/187564440-3d32ac59-92b5-4367-a21c-34122088ff71.png)
+![grayad github io_my-portfolio_](https://user-images.githubusercontent.com/102432930/196297952-99c2ee71-028f-4cec-abc7-62bb28c023bb.png)
+![grayad github io_my-portfolio_ (1)](https://user-images.githubusercontent.com/102432930/196298112-49f883e9-c202-4f71-a7ad-30f2c99a6ff2.png)
+
+
 
 
   ## Technologies
