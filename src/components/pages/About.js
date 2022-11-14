@@ -9,11 +9,11 @@ export default function About() {
         class="d-flex flex-column justify-content-center align-items-center"
       >
         <img
-          src={process.env.PUBLIC_URL + "/assets/imgOfMe1.jpg"}
+          src={process.env.PUBLIC_URL + "/assets/NewHeadshot.jpg"}
           alt="Alexus Gray"
           class="img-thumbnail my-2"
-          width={140}
-          height={100}
+          width={150}
+          height={120}
         ></img>
         <p class="p-1">
           Hi everyone! My name is Alexus Gray and I am from Sanford, North
