@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 :root{
-    --primary-color: #F7F7F7;
-    --secondary-color: #7DA2A9;
-    --tertiary-color: #FFA69E;
+    --primary-color: #0b3c5d;
+    --secondary-color: white;
+    --tertiary-color: #cd2b03;
     --quaternary-color: #93E1D8;
     --font1: montserrat, Arial, Helvetica, sans-serif;
 }
@@ -24,20 +24,27 @@ code {
     monospace;
 }
 
+header {
+  border-bottom: solid 1px white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 header, footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   font-family: var(--font1);
 }
 
-main {
-  background-color: var(--secondary-color);
-  padding: 3%;
-  color: var(--primary-color)
+header h1 {
+  font-weight:600;
 }
 
-h2 {
-  text-decoration: underline;
+main {
+  background-color: var(--primary-color);
+  padding: 3%;
+  color: var(--secondary-color)
 }
 
 .resumeDiv {
@@ -50,18 +57,12 @@ h2 {
   height: 50%;
 }
 
-.card {
-  width: 18rem;
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-}
-
 .nav-link {
   color: var(--secondary-color);
 }
 
 .icon {
-  padding: 1%;
+  padding: 2%;
 }
 
 .contact-container {
@@ -78,11 +79,16 @@ h2 {
   list-style-type: none;
 }
 
+.btn:hover{
+  color:var(--primary-color);
+  font-weight: bold;
+}
+
 
 /* Card Slide Styles */
 
 .card {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   border: none;
 }
 
@@ -94,7 +100,7 @@ h2 {
 
   transition: 0.5s;
 
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 
 }
 

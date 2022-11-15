@@ -11,7 +11,7 @@ function Nav({currentPage, handlePageChange}) {
       <ul className="nav list-unstyled">
         {pageNames.map((name) => {
           return (
-            <li className="nav-item">
+            <li className="nav-item mx-2">
               <a
                 className={determineActiveClass(currentPage, name)}
                 href={`#${name.toLowerCase()}`}
