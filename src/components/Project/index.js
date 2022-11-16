@@ -6,7 +6,7 @@ function Project() {
       title: "DevNet",
       technologies: "MERN: MongoDB, Express, React, Node",
       imageUrl: "/assets/devnet.png",
-      app: "https://devnetsocial.herokuapp.com/",
+      app: "https://devnet-production.up.railway.app/",
       github: "https://github.com/grayad/DevNet",
     },
     {
