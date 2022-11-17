@@ -41,19 +41,31 @@ export default function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formState);
+    // setFormState({ name: "", email: "", message: "" });
+    // how to clear form?
   }
 
   // JSX
   return (
     <section class="d-flex justify-content-center">
       <div class="contact-container">
-        <h2 class='text-center'>Contact Me</h2>
-        <form id="contact-form" onSubmit={handleSubmit}>
+        <h2 class="text-center">Contact Me</h2>
+        <form
+          id="contact-form"
+          onSubmit={handleSubmit}
+          action="https://formsubmit.co/alexus_gray@alumni.unc.edu"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="NEW MESSAGE FROM PORTFOLIO"
+          ></input>
           <div>
             <label htmlFor="name">Name:</label>
             <input
               type="text"
-              name="Name"
+              name="name"
               class="rounded border-0"
               defaultValue={name}
               onBlur={handleChange}
@@ -72,7 +84,7 @@ export default function Contact() {
           <div>
             <label htmlFor="message">Message:</label>
             <textarea
-              name="Message"
+              name="message"
               rows="5"
               class="rounded border-0"
               defaultValue={message}
