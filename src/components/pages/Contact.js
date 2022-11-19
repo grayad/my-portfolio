@@ -37,14 +37,6 @@ export default function Contact() {
     }
   }
 
-  //   submit form (backend later)
-  function handleSubmit(e) {
-    e.preventDefault();
-    console.log(formState);
-    // setFormState({ name: "", email: "", message: "" });
-    // how to clear form?
-  }
-
   // JSX
   return (
     <section class="d-flex justify-content-center">
@@ -52,7 +44,6 @@ export default function Contact() {
         <h2 class="text-center">Contact Me</h2>
         <form
           id="contact-form"
-          onSubmit={handleSubmit}
           action="https://formsubmit.co/alexus_gray@alumni.unc.edu"
           method="POST"
         >
