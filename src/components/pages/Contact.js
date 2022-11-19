@@ -44,7 +44,7 @@ export default function Contact() {
         <h2 class="text-center">Contact Me</h2>
         <form
           id="contact-form"
-          action="https://formsubmit.co/alexus_gray@alumni.unc.edu"
+          action="https://formsubmit.co/865aa0e246c8905e33ecbfa8076f6e87"
           method="POST"
         >
           <input
