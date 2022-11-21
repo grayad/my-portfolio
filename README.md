@@ -4,19 +4,19 @@
   
 
   ## Project Description
-  A website to showcase my development projects. Visit here https://grayad.github.io/my-portfolio/
+  A website to showcase my development projects. Visit https://grayad.github.io/my-portfolio/
     
   ## Table of Contents
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Technologies](#technologies)
   - [License](#license)
   - [Questions](#questions)
 
-  ## Screenshot
-![grayad github io_my-portfolio_](https://user-images.githubusercontent.com/102432930/196297952-99c2ee71-028f-4cec-abc7-62bb28c023bb.png)
-![grayad github io_my-portfolio_ (1)](https://user-images.githubusercontent.com/102432930/196298112-49f883e9-c202-4f71-a7ad-30f2c99a6ff2.png)
-
-
+  ## Screenshots
+![grayad github io_my-portfolio_ (2)](https://user-images.githubusercontent.com/102432930/203163050-2d4228a2-04eb-4ad3-9403-c68607e8d863.png)
+![grayad github io_my-portfolio_ (3)](https://user-images.githubusercontent.com/102432930/203163212-7fb3ec99-e610-49e3-8ede-fb995aff6a98.png)
+![grayad github io_my-portfolio_ (4)](https://user-images.githubusercontent.com/102432930/203163248-18cd056c-5dc6-45cf-b579-e4a98b51b5e8.png)
+![grayad github io_my-portfolio_ (5)](https://user-images.githubusercontent.com/102432930/203163302-3868415c-03e5-41a1-a78b-b48a1493cdc8.png)
 
 
   ## Technologies
