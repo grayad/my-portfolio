@@ -26,8 +26,16 @@ export default function Header() {
   return (
     <>
       <header className="d-flex align-items-center justify-content-between p-3">
-        <h1 aref="/">Alexus Gray</h1>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
+        <img
+          src={process.env.PUBLIC_URL + "/assets/Logo_Alexus.png"}
+          alt="Alexus' personal logo"
+          width={120}
+          height={120}
+        ></img>
+        <Nav
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        ></Nav>
       </header>
       <main>
         <Page />

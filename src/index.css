@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 :root{
-    --primary-color: #0b3c5d;
+    --primary-color: #E1F0F1;
     --secondary-color: white;
-    --tertiary-color: #cd2b03;
-    --quaternary-color: #93E1D8;
+    --tertiary-color: #87BFC2;
+    --quaternary-color: rgba(52, 52, 52, 0.993);
     --font1: montserrat, Arial, Helvetica, sans-serif;
 }
 * {
@@ -32,8 +32,8 @@ header {
 }
 
 header, footer {
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--quaternary-color);
   font-family: var(--font1);
 }
 
@@ -44,7 +44,7 @@ header h1 {
 main {
   background-color: var(--primary-color);
   padding: 3%;
-  color: var(--secondary-color)
+  color: var(--tertiary-color)
 }
 
 .resumeDiv {
@@ -58,7 +58,7 @@ main {
 }
 
 .nav-link {
-  color: var(--secondary-color);
+  color: var(--quaternary-color);
 }
 
 .icon {
