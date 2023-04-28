@@ -88,7 +88,7 @@ export default function Contact() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button type="submit" class="btn btn-light">
+          <button type="submit" class="btn bg-light m-1 p-1">
             Submit
           </button>
         </form>

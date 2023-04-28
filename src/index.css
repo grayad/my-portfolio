@@ -81,7 +81,7 @@ main {
 }
 
 .btn:hover{
-  color:var(--primary-color);
+  color:var(--tertiary-color);
   font-weight: bold;
 }
 
@@ -201,7 +201,9 @@ main {
 
   text-align: center;
 
-  color: #414141;
+  color: var(--tertiary-color);
+
+  font-weight:bold;
 
 }
 
