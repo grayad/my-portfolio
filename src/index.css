@@ -44,7 +44,7 @@ header h1 {
 main {
   background-color: var(--primary-color);
   padding: 3%;
-  color: var(--tertiary-color)
+  color: var(--quaternary-color)
 }
 
 .resumeDiv {
