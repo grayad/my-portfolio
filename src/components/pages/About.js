@@ -21,10 +21,10 @@ export default function About() {
           Carolina at Chapel Hill with a Bachelor's in Business Administration
           and Communication Studies, as well as a Spanish minor. Since then, I
           have completed the Associate Project Management Certification (CAPM)
-          and have been working as a Project Analyst in IT.
+          and have been working as a Project Analyst at a global IT company.
           <br></br>
           <br></br>
-          Recently, I discovered my new passion for coding and completed the UNC
+          Recently, I discovered my new passion for coding and, in September of 2022, I completed the UNC
           Coding Boot Camp to become a Certified Full Stack Developer. This
           website hosts some of my projects. Take a look around!
         </p>
