@@ -6,7 +6,6 @@ function Project() {
       title: "DevNet",
       technologies: "MERN: MongoDB, Express, React, Node",
       imageUrl: "/assets/devnet.png",
-      app: "https://devnet-production.up.railway.app/",
       github: "https://github.com/grayad/DevNet",
     },
     {
@@ -45,6 +44,38 @@ function Project() {
       github: "https://github.com/grayad/timed-quiz-game",
     },
     {
+      title: "E-Commerce-Site",
+      technologies: "Node.js/Express/Mysql/Sequelize",
+      imageUrl: "/assets/ecommerce.png",
+      walkthrough:
+        "https://drive.google.com/file/d/1yDw7CQrvQB1Dx3311eHuKlb6G24bZpPd/view",
+      github: "https://github.com/grayad/e-commerce-site",
+    },
+    {
+      title: "Show-Me-My-Team",
+      technologies: "JS/Node.js/HTML/Inquirer/Bootstrap",
+      imageUrl: "/assets/myteam.png",
+      walkthrough:
+        "https://drive.google.com/file/d/1X4ka0jY_i7tdO1YRUD1pmMfytCM46TW4/view",
+      github: "https://github.com/grayad/show-me-my-team",
+    },
+    {
+      title: "API-for-Social-Network",
+      technologies: "Node.js/Express/JS/MongoDB",
+      imageUrl: "/assets/socialnetwork.png",
+      walkthrough:
+        "https://drive.google.com/file/d/1li7dchz6HPuZUhJM9sXdJWYgf0qM0-Gn/view",
+      github: "https://github.com/grayad/API-for-Social-Network",
+    },
+    {
+      title: "README-Generator",
+      technologies: "Node.js/JS",
+      imageUrl: "/assets/readme.png",
+      walkthrough:
+        "https://drive.google.com/file/d/1YgDUTLiG_p-JLfKNe6JS8T3Q2aGDNnZ2/view",
+      github: "https://github.com/grayad/README-generator",
+    },
+    {
       title: "Gray-Portfolio",
       technologies: "HTML/CSS",
       imageUrl: "/assets/Gray-Portfolio.png",
@@ -72,11 +103,18 @@ function Project() {
               <div class="slide slide2">
                 <div class="content text-center">
                   <h3>{project.title}</h3>
-
                   <p>Built With: {project.technologies}</p>
+                  {project.app ? (
                   <a href={project.app} class="btn border-secondary m-1 p-1">
                     Application
-                  </a>
+                  </a>)
+                  :
+                  (<a
+                    href={project.walkthrough}
+                    class="btn border-secondary m-1 p-1"
+                  >
+                    Walkthrough
+                  </a>)}
                   <a href={project.github} class="btn border-secondary m-1 p-1">
                     Github
                   </a>
