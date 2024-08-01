@@ -8,7 +8,7 @@ function Footer() {
       <a href="https://github.com/grayad/" class='icon'>
         <FaGithub size={40} color='#87BFC2' class='faIcon'></FaGithub>
       </a>
-      <a href="https://www.linkedin.com/in/alexus-lexi-gray-capm-151434179/" class='icon'>
+      <a href="https://www.linkedin.com/in/grayad7/" class='icon'>
         <FaLinkedinIn size={40} color='#87BFC2'></FaLinkedinIn>
       </a>
       <a href="mailto: alexus_gray@alumni.unc.edu" class='icon'>
